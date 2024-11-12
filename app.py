@@ -3,7 +3,7 @@ import sqlite3
 
 API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'  # Замените на ваш токен
 #bot = telebot.TeleBot(API_TOKEN)
-bot = telebot.TeleBot('7355082915:AAG0C6xkBF99MX3KCjzPTziy1Xjk2uWkRpE')
+bot = telebot.TeleBot('7088516662:AAGjbT9agaVOYdEoO4o7EUDsVXp4Px-xZCY')
 # Функция для получения расписания
 def get_schedule(group_name):
     conn = sqlite3.connect('schedule.db')
